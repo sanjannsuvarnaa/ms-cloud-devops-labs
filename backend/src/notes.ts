@@ -1,3 +1,4 @@
+import crypto from 'node:crypto';
 export interface Note {
   id: string;
   title: string;
